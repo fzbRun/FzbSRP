@@ -1,0 +1,60 @@
+# Build directories (common CMake convention)
+build/
+_build/
+out/
+cmake-build-*/
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio IntelliSense
+.vs/
+
+# Compile results
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.manifest
+
+# Debug and Release folders (if built in source tree)
+Debug/
+Release/
+#x64/
+#x86/
+
+# CMake cache and generated files (if not using out-of-source build exclusively)
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# Precompiled headers (optional, if you don't commit them)
+*.pch
+
+# Environment files (e.g., from vcpkg or conan)
+vcpkg_installed/
+conan.lock
+conanbuildinfo.cmake
+
+# Editors
+*.swp
+*~
+.DS_Store
+
+_downloaded_resources/
+#third_party/
+
+*.meta

@@ -100,8 +100,6 @@ float2 Hammersley(uint i, uint N)
 	return float2(float(i) / float(N), RadicalInverse_VdC(i));
 }
 
-float3 
-
 RWTexture3D<float4> SSLPVAvgDepthTexture;
 //RWTexture3D<float4> SSLPVVPLAvgDepthTexture;
 RWTexture3D<float4> SSLPVAvgDepthSquareTexture;

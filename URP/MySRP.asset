@@ -26,9 +26,9 @@ MonoBehaviour:
     directional:
       atlasSize: 1024
       cascadeCount: 4
-      cascadeRatio1: 0.13082974
-      cascadeRatio2: 0.2738047
-      cascadeRatio3: 0.48312116
+      cascadeRatio1: 0.1520558
+      cascadeRatio2: 0.31498724
+      cascadeRatio3: 0.55185676
       cascadeFade: 1
       filter: 1
       cascadeBlendMode: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
     OnlyGI: 0
     Intensity: 1
     IBL:
-      useIBL: 0
+      useIBL: 1
       irradianceMap: {fileID: 2800000, guid: 8be68de0f7318ad4f8509e5fc4d671a7, type: 2}
       LobeSpecualrMap: {fileID: 2800000, guid: 55170aea740f29c409c9cdf436237235, type: 2}
       BRDFMap: {fileID: 0}
@@ -71,14 +71,14 @@ MonoBehaviour:
       fastRsm: 0
       RSMLUTCS: {fileID: 7200000, guid: 69e0b040daaf9e74a8c9477452e174f4, type: 3}
       mapSize: 1024
-      Intensity: 1.5
+      Intensity: 1
       SampelSize: 200
     LPV:
       useLPV: 1
-      LPVMode: 1
+      LPVMode: 0
       LPVCS: {fileID: 7200000, guid: 70b7a4683f8fbab44affb702605f162b, type: 3}
       SSLPVCS: {fileID: 7200000, guid: 0f59a28c42cfc044981e5d57f51ccbe2, type: 3}
-      radiateSize: 2
-      Intensity: 1
-      radiateIntensity: 1
+      radiateSize: 1
+      Intensity: 2
+      radiateIntensity: 2.01
   colorLUTResolution: 32
